@@ -36,6 +36,7 @@ exports[`renders learn react link 1`] = `
         </label>
         <div
           class="title"
+          style="background-color: green;"
         >
           <input
             placeholder="Input title"
@@ -71,6 +72,7 @@ exports[`renders learn react link 1`] = `
         </label>
         <div
           class="title"
+          style="background-color: green;"
         >
           <input
             placeholder="Input title"
@@ -106,6 +108,7 @@ exports[`renders learn react link 1`] = `
         </label>
         <div
           class="title"
+          style="background-color: green;"
         >
           <input
             placeholder="Input title"
@@ -141,6 +144,7 @@ exports[`renders learn react link 1`] = `
         </label>
         <div
           class="title"
+          style="background-color: green;"
         >
           <input
             placeholder="Input title"
