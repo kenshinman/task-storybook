@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<DocumentFragment>
+  <div
+    class="page lists-show"
+  >
+    <nav>
+      <h1
+        class="title-page"
+      >
+        <span
+          class="title-wrapper"
+        >
+          Taskbox
+        </span>
+      </h1>
+    </nav>
+    <div
+      class="list-items"
+    >
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+            value="Something"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+            value="Something more"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+            value="Something else"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="list-item TASK_INBOX"
+      >
+        <label
+          class="checkbox"
+        >
+          <input
+            disabled=""
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            class="checkbox-custom"
+          />
+        </label>
+        <div
+          class="title"
+        >
+          <input
+            placeholder="Input title"
+            readonly=""
+            type="text"
+            value="Something again"
+          />
+        </div>
+        <div
+          class="actions"
+        >
+          <a>
+            <span
+              class="icon-star"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
