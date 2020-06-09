@@ -1,12 +1,15 @@
 import React from "react";
-
+import { withKnobs, object, array } from "@storybook/addon-knobs/react";
 import { PureTaskList } from "./TaskList";
 import { taskData, actionsData } from "./Task.stories";
 
 export default {
 	component: PureTaskList,
 	title: "TaskList",
-	decorators: [(story) => <div style={{ padding: "3rem" }}>{story()}</div>],
+	decorators: [
+		(story) => <div style={{ padding: "3rem" }}>{story()}</div>,
+		withKnobs,
+	],
 	excludeStories: /.*Data$/,
 };
 
@@ -25,7 +28,10 @@ export const withPinnedTasksData = [
 ];
 
 export const Default = () => (
-	<PureTaskList tasks={defaultTasksData} {...actionsData} />
+	<PureTaskList
+		tasks={array("tasks", [...defaultTasksData])}
+		{...actionsData}
+	/>
 );
 
 export const WithPinnedTasks = () => (
